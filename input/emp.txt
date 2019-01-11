@@ -1,0 +1,15 @@
+211,aaa,male,chn,20000,101
+222,bbb,male,blr,23000,103
+233,ccc,female,blr,25000,104
+244,ddd,female,hyd,30000,102
+255,eee,male,hyd,20000,101
+266,fff,female,mum,50000,102
+288,ggg,male,del,40000,105
+311,hhh,male,blr,30000,101
+322,iii,female,hyd,40000,106
+333,jjj,male,del,60000,108
+344,kkk,male,chn,35000,103
+355,lll,male,del,15000,101
+366,mmm,female,blr,15000,101
+377,nnn,male,blr,20000,101
+388,ooo,male,hyd,10000,101
