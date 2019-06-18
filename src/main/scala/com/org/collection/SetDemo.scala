@@ -8,5 +8,6 @@ object SetDemo extends App {
 
   println(set)
   println(set.size)
+  println(set(0))
 
 }

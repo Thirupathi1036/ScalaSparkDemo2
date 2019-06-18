@@ -5,6 +5,7 @@ import org.json4s.jackson.JsonMethods._
 import java.io.{File, PrintWriter}
 
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.sql.types._
 
 import scala.collection.mutable.ListBuffer
@@ -14,7 +15,7 @@ object JsonColumns extends App {
   val spark = SparkSession.builder().appName("DF Demo").master("local[2]").getOrCreate()
   val sc = spark.sparkContext
   val sqlContext = spark.sqlContext
-
+  val hc=new HiveContext(sc)
   //val fileName = "C:\\Users\\thirupathi.c\\IdeaProjects\\ScalaSparkDemo\\input\\emp.json"
   val fileName = "C:/Thiru/Project/new_Project/payload.json"
   val outFileName = "C:\\Users\\thirupathi.c\\IdeaProjects\\ScalaSparkDemo\\output\\columns.txt"

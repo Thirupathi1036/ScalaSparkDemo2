@@ -12,14 +12,16 @@ object ReduceByKeyDemo extends App {
   val pariRdd:RDD[(Int,List[String])] = sc.parallelize(list)
   //println(pariRdd.collect().toList)
 
-  val grpBy = pariRdd.groupByKey()
+  val grpBy = pariRdd.groupByKey().cache()
   pariRdd.groupByKey()
   grpBy.foreach(println)
 
-  val reduceBy = pariRdd.reduceByKey((x, y) => x++y)
+  val reduceBy = pariRdd.reduceByKey((x, y) => x++y).distinct()
 
-  //reduceBy foreach(println)
 
-  pariRdd.sortByKey() foreach(println)
+
+  reduceBy foreach(println)
+
+  //pariRdd.sortByKey() foreach(println)
 
 }

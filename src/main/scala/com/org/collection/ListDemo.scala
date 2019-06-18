@@ -11,6 +11,7 @@ object ListDemo extends App {
   val dropList = list.drop(1)
   println(dropList)
 
+
   val splitList = list.splitAt(3)
 
   println(splitList)

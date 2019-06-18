@@ -12,11 +12,12 @@ object StringPermutation extends App {
     val len = str.length
     if (len == 0) {
       println(prefix)
+      set.add(prefix)
     } else {
       for (i <- 0 until len) {
-        val j = i + 1
+       // val j = i + 1
        // println(prefix + str.charAt(i) + "\t" + i + "<-" + str.substring(0, i) + "." + str.substring(j, len))
-        permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(j))
+        permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i+1))
       }
     }
   }

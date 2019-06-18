@@ -12,7 +12,7 @@ object RddDemo extends App {
   //getFiltered(strRdd, "you")
   strRdd.map{data=> if(data._2.size <2) data._2.+("===") else data._2}
 
-  println(strRdd.collect().toList)
+  //println(strRdd.top(2).collect().toList)
 
   /*def getFiltered(rdd: RDD[(String, scala.Iterable[String])], key: String) = {
     var list = scala.collection.mutable.MutableList.empty[String]

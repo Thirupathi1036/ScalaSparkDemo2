@@ -17,6 +17,11 @@
             <name>Scala-Tools Maven2 Repository</name>
             <url>http://scala-tools.org/repo-releases</url>
         </repository>
+        <repository>
+            <id>MMLSpark Repo</id>
+            <name>MMLSpark Repo Repository</name>
+            <url>https://mmlspark.azureedge.net/maven</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>
@@ -24,6 +29,11 @@
             <id>scala-tools.org</id>
             <name>Scala-Tools Maven2 Repository</name>
             <url>http://scala-tools.org/repo-releases</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>MMLSpark Repo</id>
+            <name>MMLSpark Repo Repository</name>
+            <url>https://mmlspark.azureedge.net/maven</url>
         </pluginRepository>
     </pluginRepositories>
 
@@ -93,6 +103,46 @@
             <version>1.1.1</version>
         </dependency>
 
+        <!--Spark Serving Dependency
+         <dependency>
+            <groupId>com.microsoft.ml.spark</groupId>
+            <artifactId>mmlspark</artifactId>
+            <version>0.17</version>
+        </dependency>-->
+
+        <!--PDF to Word Conversion dependencies start here-->
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox-tools</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.cssbox</groupId>
+            <artifactId>pdf2dom</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.itextpdf.tool</groupId>
+            <artifactId>xmlworker</artifactId>
+            <version>5.5.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>3.15</version>
+        </dependency>
+        <!--PDF to Word Conversion dependencies close here-->
     </dependencies>
 
     <build>
