@@ -1,0 +1,5 @@
+userid,userid1,userid2,score
+23 ,,dsad,3
+11 ,44,,4
+231,,temp,5
+231,,temp,2

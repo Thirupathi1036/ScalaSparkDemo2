@@ -1,0 +1,7 @@
+id, name,   dept,   address
+1,  a,  10, hyd
+2,  b,  10, blr
+3,  a,  5,  chn
+4,  d,  2,  hyd
+5,  a,  3,  blr
+6,  b,  2,  hyd

@@ -1,0 +1,4 @@
+1001,Nokia,5000.0,Mobile
+1002,Samsung,50000.0,Tv
+10003,HDD,5000.0,Storage
+1004,SSD,7000.0,Storage

@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb75d6a0-9470-4b63-8a68-599fc714ddb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/payload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/payload1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/child.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dept.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/emp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/emp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/person.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/file/FileUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/func/Loader.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/func/Reader.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/impli/StringToAny.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/impli/WidenTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/impli/Widener.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/model/Person.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/pattern/PatternTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/df/DfEmpty.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/df/PersonDF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/df/Tc4a.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/rdd/EmptyRdd.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/traitp/Loader.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/org/traitp/Reader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaSparkDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaSparkDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaSparkDemo.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaSparkDemo.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaSparkDemo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaSparkDemo.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/org/spark/df/EmpDeptDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/df/EmpDeptDF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/org/spark/rdd/AccumulatorDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/rdd/AccumulatorDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/org/spark/rdd/GroupByNumDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/rdd/GroupByNumDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/org/spark/util/SparkUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/org/spark/util/SparkUtils.scala" afterDir="false" />
-    </list>
+    <list default="true" id="bb75d6a0-9470-4b63-8a68-599fc714ddb2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -222,15 +192,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="939" column="21" selection-start-line="939" selection-start-column="21" selection-end-line="939" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/SparkContext.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -249,10 +210,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/python/spark/EpamData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="255">
               <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -506,73 +467,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="rdd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSparkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSparkDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -598,7 +492,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560866849297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560867046838" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -778,6 +672,14 @@
       <option name="presentableId" value="Default" />
       <updated>1547532089002</updated>
     </task>
+    <task id="LOCAL-00001" summary="created new project for spark learning">
+      <created>1560866907445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560866907445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -798,7 +700,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" order="0" visible="true" weight="0.19384836" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.3111588" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Web" order="2" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -818,7 +720,7 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32094175" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.47100425" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" id="Hierarchy" order="2" weight="0.25" />
@@ -872,6 +774,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="created new project for spark learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="created new project for spark learning" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -1386,13 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/org/spark/rdd/ReduceByKeyDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/SparkContext.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29910">
@@ -1404,16 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13785">
           <caret line="958" column="3" selection-start-line="958" selection-start-column="3" selection-end-line="958" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/python/spark/EpamData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,8 +1320,25 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="939" column="21" selection-start-line="939" selection-start-column="21" selection-end-line="939" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="952" column="18" selection-start-line="952" selection-start-column="18" selection-end-line="952" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/org/spark/rdd/ReduceByKeyDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/python/spark/EpamData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
